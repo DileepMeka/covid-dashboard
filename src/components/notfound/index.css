@@ -1,0 +1,25 @@
+.not-found {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.page-not-found {
+  color: #cbd5e1;
+  font-size: 32px;
+  margin: 32px 0 16px 0;
+}
+.not-found-content {
+  color: #94a3b8;
+  font-size: 20px;
+}
+.home-button {
+  background-color: #2563eb;
+  color: #ffffff;
+  padding: 12px 24px;
+  border-radius: 4px;
+  border: none;
+  margin-top: 32px;
+  cursor: pointer;
+}

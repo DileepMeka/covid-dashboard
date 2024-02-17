@@ -1,0 +1,165 @@
+.state-details-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.state-name {
+  color: #0ea5e9;
+  background-color: #0284c729;
+  border-radius: 32px;
+  padding: 10px 20px;
+  text-align: center;
+  font-size: 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.last-updated {
+  color: #cbd5e1;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 12px 0;
+}
+.tested-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #94a3b8;
+  text-align: right;
+  font-weight: 500;
+}
+.tested {
+  font-size: 16px;
+}
+.tested-count {
+  font-size: 24px;
+}
+.cards-container button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.confirm-selected,
+.state-page-cards .confirm-card:hover {
+  background-color: #331427 !important;
+}
+.active-selected,
+.state-page-cards .active-card:hover {
+  background-color: #132240 !important;
+}
+.recover-selected,
+.state-page-cards .recover-card:hover {
+  background-color: #182829 !important;
+}
+.deceased-selected,
+.state-page-cards .decease-card:hover {
+  background-color: #212230 !important;
+}
+.CONFIRM {
+  color: #ff073a;
+}
+.ACTIVE {
+  color: #007bff;
+}
+.RECOVER {
+  color: #28a745;
+}
+.DECEASED {
+  color: #6c757d;
+}
+.confirm-line-chart {
+  background-color: #331427;
+  color: #ff073a;
+}
+.active-line-chart {
+  background-color: #132240;
+  color: #007bff;
+}
+.recover-line-chart {
+  background-color: #182829;
+  color: #28a745;
+}
+.deceased-line-chart {
+  background-color: #1c1c2b;
+  color: #6c757d;
+}
+.tested-line-chart {
+  background-color: #230f41;
+  color: #9673b9;
+}
+.top-districts-heading {
+  margin: 40px 0 20px 0;
+}
+.title {
+  text-align: right;
+}
+.top-districts {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  color: #94a3b8;
+}
+.top-district-item {
+  display: flex;
+  margin: 12px 0;
+  justify-content: start;
+  align-items: center;
+  width: 300px;
+  text-align: left;
+}
+.count {
+  font-size: 24px;
+  font-weight: 500;
+  margin-right: 20px;
+}
+.district-name {
+  font-size: 16px;
+}
+.bar-graph-container {
+  width: 100%;
+  height: 100%;
+  overflow-y: auto;
+  margin-block: 40px;
+}
+.line-chart {
+  padding: 30px;
+  border-radius: 20px;
+}
+
+@media (max-width: 548px) {
+  .state-name {
+    font-size: 16px;
+    width: 156px;
+    height: 32px;
+  }
+  .last-updated {
+    font-size: 10px;
+    width: 177px;
+    height: 16px;
+  }
+  .tested {
+    font-size: 12px;
+  }
+  .tested-count {
+    font-size: 16px;
+  }
+  .top-district-item {
+    width: 180px;
+  }
+  .count {
+    font-size: 16px;
+  }
+  .district-name {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 762px) {
+  .card:nth-child(1) {
+    margin-left: 0 !important;
+  }
+  .card:nth-last-child(1) {
+    margin-right: 0 !important;
+  }
+}
