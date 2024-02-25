@@ -528,7 +528,7 @@ class StatePage extends Component {
       <>
         <div className="state-details-container">
           <div className="name-update-container">
-            <p className="state-name">{stateDetails.name}</p>
+            <h1 className="state-name">{stateDetails.name}</h1>
             <p className="last-updated">
               Last update on {stateDetails.lastUpdated}.
             </p>
@@ -552,7 +552,7 @@ class StatePage extends Component {
                 alt="state specific confirmed cases pic"
                 className="card-img"
               />
-              <p>{stateDetails.active}</p>
+              <p>{stateDetails.confirmed}</p>
             </div>
           </button>
           <button
